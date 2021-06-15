@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "22d2fd01d654679635df31f22ee47768",
@@ -2896,16 +2896,16 @@
         },
         {
             "name": "studio-42/elfinder",
-            "version": "2.1.30",
+            "version": "2.1.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Studio-42/elFinder.git",
-                "reference": "c021aad5ead737bc2ce1d4bfc3a52cd4944fced2"
+                "reference": "06ada3132cefd057e1d89cb016f8c82473d420d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/c021aad5ead737bc2ce1d4bfc3a52cd4944fced2",
-                "reference": "c021aad5ead737bc2ce1d4bfc3a52cd4944fced2",
+                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/06ada3132cefd057e1d89cb016f8c82473d420d4",
+                "reference": "06ada3132cefd057e1d89cb016f8c82473d420d4",
                 "shasum": ""
             },
             "require": {
@@ -2940,7 +2940,7 @@
                 },
                 {
                     "name": "Naoki Sawada",
-                    "email": "hypweb@gmail.com",
+                    "email": "hypweb+elfinder@gmail.com",
                     "homepage": "http://xoops.hypweb.net"
                 },
                 {
@@ -2950,7 +2950,11 @@
             ],
             "description": "File manager for web",
             "homepage": "http://elfinder.org",
-            "time": "2017-11-29T08:31:14+00:00"
+            "support": {
+                "issues": "https://github.com/Studio-42/elFinder/issues",
+                "source": "https://github.com/Studio-42/elFinder/tree/2.1.59"
+            },
+            "time": "2021-06-13T15:04:24+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5773,5 +5777,6 @@
     "platform": {
         "php": ">=7.0.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
